@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width-devide-width, initial-scale=1.0">
+    <title>joey quismorio - about me</title>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset=utf-8>
+    <link rel="shortcut icon" href="jq_logo.ico" type="image/x-icon">
+</head>
+<body onload="document.body.style.opacity='1'">
+    <div class="container">
+        <div class="menu" id="topnav">
+            <a href="https://joeyquismor.io">
+                <img class="logo" src="joeylogo.png">
+            </a>
+            <nav>
+                <ul  id="menuList">
+                    <li><a href="https://joeyquismor.io">home</a></li>
+                    <li class="active">about me</li>
+                    <li><a href="./projects">projects</a></li>
+                    <li><a href="./contact">contact</a></li>
+                </ul>
+            </nav>
+            <img class="menu-icon" src="Hamburger_icon.png" onclick="toggleMenu()">
+        </div>
+        <div class="banner">
+            <div class="text">
+                <h1>about me</h1>
+                <p>hi! my name is <strong>joseph "joey" quismorio</strong>, and i am currently a 20-year-old junior computer science student
+                   at texas a&m university at college station, with an interdisciplinary focus on russian language (<span style="font-size: 18px; font-weight: 400">привет друзья! меня зовут джоуи. здорово вас всех видеть<a href="./error" class="error">!</a></span>).
+                   <br/><br/>
+                   i primarily work in <strong>c++</strong>, <strong>python</strong>, and <strong>java</strong>, and try to hold a 
+                   good foundation in <strong>html</strong>, <strong>css</strong>, and <strong>javascript</strong>. i've also had experience 
+                   in <strong>scheme</strong>, a variation of <strong>lisp</strong>, as well as some <strong>assembly language</strong> and <strong>machine language</strong> in
+                   the form of <strong>nand2tetris</strong> projects.
+                   the tools i use include <strong>atom</strong>, <strong>visual studio code</strong>, <strong>pycharm</strong>, and <strong>netbeans</strong>.
+                   <br/><br/>
+                   outside of school, i enjoy listening to music (here's my <strong><a href="https://open.spotify.com/user/cooljoey69" target=_blank>spotify</a></strong>), 
+                   making music on <strong>fl studio</strong> and <strong>ableton</strong> (here's my <em>inactive</em> <strong><a href="https://soundcloud.com/jiromiyoshi" target=_blank>soundcloud</a></strong>), 
+                   watching as many movies as i can (sorry for all these account plugs... here's my <strong><a href="https://letterboxd.com/jiromiyoshi/" target=_blank>letterboxd</a></strong>), reading (i'm currently reading <strong><em>infinite jest</em></strong> by david foster wallace 
+                   - i don't think i'll need to update this for a while), and running my radio show on kanm's student radio 
+                   (which <em>you</em> can listen to <strong><a href="https://www.kanm.org/#/" target=_blank>here</a></strong> on fridays at 2 pm!).
+                   <br/><br/>
+                   even in my youth, i've had a strong appreciation for and interest in all forms of art, including and especially the visual arts. from my experiences with studying
+                   both classic and modern aesthetics, i've come to embrace simplicity in content structure and design patterns, applying this to my field by emphasizing cleanliness and efficiency in how 
+                   my code appears to others. i hope to, one day, fully bring my enthusiasm and passion for sleek and creative visual design into my work as a programmer, whether it be through
+                   the front or back end - i'll find a way regardless. 
+                   <br/><br/>
+                   want to work together? my resume can be found <strong><a href="Joseph Quismorio Resume 2021 2.pdf">here</a></strong>. 
+                   <br/><br/>
+                </p>
+            </div>
+        </div>
+        <script>
+            var menuList = document.getElementById("menuList");
+            
+            menuList.style.maxHeight = "0px";
+  
+            function toggleMenu(){
+                if(menuList.style.maxHeight == "0px"){
+                  menuList.style.maxHeight = "130px";
+                }
+                else{
+                  menuList.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </div> 
+    <footer>
+        <p class="text2">made by joseph quismorio. copyright 2021</p>
+    </footer>  
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width-devide-width, initial-scale=1.0">
+    <title>joey quismorio - projects</title>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset=utf-8>
+    <link rel="shortcut icon" href="jq_logo.ico" type="image/x-icon">
+</head>
+<body onload="document.body.style.opacity='1'">
+    <div class="container">
+        <div class="menu" id="topnav">
+            <a href="https://joeyquismor.io">
+                <img class="logo" src="joeylogo.png">
+            </a>
+            <nav>
+                <ul  id="menuList">
+                    <li><a href="https://joeyquismor.io">home</a></li>
+                    <li><a href="./aboutme">about me</a></li>
+                    <li class="active">projects</li>
+                    <li><a href="./contact">contact</a></li>
+                </ul>
+            </nav>
+            <img class="menu-icon" src="Hamburger_icon.png" onclick="toggleMenu()">
+        </div>
+        <div class="banner">
+            <div class="text">
+                <h1>projects</h1>
+                <p>i don't have any official projects (yet) other than this website, perhaps.
+                   <br/><br/>
+                   however, i have dabbled in making small <strong>python projects</strong>, such as <strong>discord bots</strong> and <strong>data readers</strong>. 
+                   i also have a large collection of schoolwork that i've done in <strong>c++</strong> and <strong>java</strong> (for the most part withheld due to me 
+                   not wanting to get in trouble with the university). 
+                   <br/><br/>
+                   you can find these things on my <strong><a href="https://github.com/josephquismorio" target=_blank>github</a></strong>.
+                   <br/><br/>
+                </p>
+            </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px"){
+              menuList.style.maxHeight = "130px";
+            }
+            else{
+              menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</div> 
+<footer>
+    <p class="text2">made by joseph quismorio. copyright 2021</p>
+</footer>  
+</body>
+</html>

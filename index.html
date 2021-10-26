@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width-devide-width, initial-scale=1.0">
+    <title>joey quismorio - home</title>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset=utf-8>
+    <link rel="shortcut icon" href="jq_logo.ico" type="image/x-icon">
+</head>
+<body onload="document.body.style.opacity='1'">
+    <div class="container">
+        <div class="menu" id="topnav">
+            <a href="https://joeyquismor.io">
+                <img class="logo" src="joeylogo.png">
+            </a>
+            <nav>
+                <ul  id="menuList">
+                    <li class="active">home</li>
+                    <li><a href="./aboutme">about me</a></li>
+                    <li><a href="./projects">projects</a></li>
+                    <li><a href="./contact">contact</a></li>
+                </ul>
+            </nav>
+            <img class="menu-icon" src="Hamburger_icon.png" onclick="toggleMenu()">
+        </div>
+        <div class="banner">
+            <div class="text">
+                <h1>welcome!</h1>
+                <p>i'm <strong>joey quismorio</strong>, a computer science student at texas a&m university.
+                    <br/><br/>
+                    on my <em>off</em> days, i like listening to/making music and sometimes studying code. 
+                    <br/> <br/>
+                    on my <em>on</em>  days, i'm about the same, except that i have more schoolwork to stress over.
+                </p>
+                <div class="small"><p><strong><a href="./aboutme">more about me</a></strong>
+                    <br/> <br/></p></div>
+                
+            </div>
+            <div class="picture">
+                <img src="joey-1.png" class="joey">
+            </div>
+        </div>
+        <script>
+            var menuList = document.getElementById("menuList");
+            
+            menuList.style.maxHeight = "0px";
+  
+            function toggleMenu(){
+                if(menuList.style.maxHeight == "0px"){
+                  menuList.style.maxHeight = "130px";
+                }
+                else{
+                  menuList.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </div>
+    <footer>
+        <p class="text2">made by joseph quismorio. copyright 2021</p>
+    </footer>  
+</body>
+</html>
